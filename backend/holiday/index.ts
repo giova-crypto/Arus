@@ -1,7 +1,6 @@
 import express from 'express';
+import morgan from 'morgan';
 import Holidays from 'date-holidays';
-
-import { HolidayAPI } from 'holidayapi';
 
 // function checkSunday(date: Date, locale: string)
 // {
@@ -15,9 +14,10 @@ import { HolidayAPI } from 'holidayapi';
 // }
 
 const app = express();
+app.use(morgan('dev'));
 
 app.get('/holiday', (req, res) => {
-    var hd = new Holidays('CO', 'ANT', undefined);
+    var hd = new Holidays('CO');
     var today = new Date();
     today.setDate(today.getDate());
     const isHoliday = hd.isHoliday(today);
