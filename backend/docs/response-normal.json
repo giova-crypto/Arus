@@ -1,0 +1,10 @@
+{
+    "status": 200,
+    "warning": "These results do not include state and province holidays. For more information, please visit https:\/\/holidayapi.com\/docs",
+    "requests": {
+        "used": 4,
+        "available": 9996,
+        "resets": "2022-11-01 00:00:00"
+    },
+    "holidays": []
+}

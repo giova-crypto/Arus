@@ -1,0 +1,29 @@
+{
+    "status": 200,
+    "warning": "These results do not include state and province holidays. For more information, please visit https:\/\/holidayapi.com\/docs",
+    "requests": {
+        "used": 3,
+        "available": 9997,
+        "resets": "2022-11-01 00:00:00"
+    },
+    "holidays": [
+        {
+            "name": "Halloween",
+            "date": "2021-10-31",
+            "observed": "2021-10-31",
+            "public": false,
+            "country": "CO",
+            "uuid": "90298b80-affa-45ce-adb9-1b1a8692849f",
+            "weekday": {
+                "date": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                },
+                "observed": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                }
+            }
+        }
+    ]
+}
